@@ -1,0 +1,4 @@
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Domain\bin\Release\Balanca.Domain.dll
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Domain\bin\Release\Balanca.Domain.pdb
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Domain\obj\Release\Balanca.Domain.dll
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Domain\obj\Release\Balanca.Domain.pdb

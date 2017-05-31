@@ -1,0 +1,12 @@
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Infra\bin\Release\Balanca.Infra.dll.config
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Infra\bin\Release\Balanca.Infra.dll
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Infra\bin\Release\Balanca.Infra.pdb
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Infra\bin\Release\Balanca.Domain.dll
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Infra\bin\Release\EntityFramework.dll
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Infra\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Infra\bin\Release\Balanca.Domain.pdb
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Infra\bin\Release\EntityFramework.xml
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Infra\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Infra\obj\Release\Balanca.Infra.csprojResolveAssemblyReference.cache
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Infra\obj\Release\Balanca.Infra.dll
+C:\Users\fabio\documents\visual studio 2015\Projects\BalancaIO\Balanca.Infra\obj\Release\Balanca.Infra.pdb
