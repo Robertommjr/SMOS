@@ -98,14 +98,14 @@
                     <li class="treeview">
                         <a href="#">
                             <i class="fa fa-circle-o"></i>
-                            <span>Balanças</span>
+                            <span>Home</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
                             </span>
                         </a>
                         <ul class="treeview-menu">
                             @*<li><a href="#"><i class="fa fa-circle-o"></i> Cadastrar</a></li>*@
-                            <li><a href="@Url.Action("Index","Home")"><i class="fa fa-circle-o"></i>Home</a></li>
+                            <li><a href="@Url.Action("Balancas","Home")"><i class="fa fa-circle-o"></i>Dashboard</a></li>
                         </ul>
                     </li>
                     <li class="treeview">
@@ -118,22 +118,8 @@
                         </a>
                         <ul class="treeview-menu">
                             @*<li><a href="#"><i class="fa fa-circle-o"></i> Cadastrar</a></li>*@
-                            <li><a href="#"><i class="fa fa-circle-o"></i> Editar</a></li>
+                            <li><a href="@Url.Action("Editar","Balanca")"><i class="fa fa-fw fa-edit"></i> Editar</a></li>
                             <li><a href="#"><i class="fa fa-circle-o"></i> Visualizar</a></li>
-                        </ul>
-                    </li>
-                    <li class="treeview">
-                        <a href="#">
-                            <i class="fa fa-pie-chart"></i>
-                            <span>Gráficos</span>
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li><a href="@Url.Action("Balancas","Home")"><i class="fa fa-circle-o"></i> Linhas</a></li>
-                            @*<li><a href="#"><i class="fa fa-circle-o"></i> Pizza</a></li>
-                            <li><a href="#"><i class="fa fa-circle-o"></i> Barras</a></li>*@
                         </ul>
                     </li>
                 </ul>
@@ -142,14 +128,6 @@
         </aside>
 
         <div class="content-wrapper">
-
-                <div class="alert alert-danger page-alert" id="alert-5">
-                    <button type="button" class="close"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                    <strong>Atenção!</strong> O peso de uma das baias se encontra irregular, favor verificar.
-                </div>
-
-
-            <button id="dispararErro" style="display:none" data-toggle="page-alert" data-delay="3000" data-toggle-id="5" class="btn btn-info btn-block">Auto closing alert</button>
             @RenderBody()
         </div>
 

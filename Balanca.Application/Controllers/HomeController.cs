@@ -1,4 +1,4 @@
-﻿using System.Web.Mvc;
+﻿    using System.Web.Mvc;
 
 namespace Balanca.Application.Controllers
 {
@@ -6,7 +6,7 @@ namespace Balanca.Application.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("Balancas");
         }
 
         public ActionResult Balancas()
