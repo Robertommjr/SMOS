@@ -7,17 +7,17 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace SMOS.Infra.Context
 {
-    public class BalancaIOContext : DbContext
+    public class SMOSContext : DbContext
     {
-        public static BalancaIOContext Create()
+        public static SMOSContext Create()
         {
-            return new BalancaIOContext();
+            return new SMOSContext();
         }
 
-        public BalancaIOContext()
-        : base("BalancaIOConnectionString")
+        public SMOSContext()
+        : base("SMOSContextConnectionString")
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<BalancaIOContext, Configuration>());
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<SMOSContext, Configuration>());
         }
 
 
