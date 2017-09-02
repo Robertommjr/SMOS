@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{BE851F35-AAA6-4C96-807A-E5B12665BEED}"
 EndProject
@@ -11,19 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Aplicacao", "1 - Aplicacao", "{0279B9B4-AFB7-44C7-A190-7EB6E7AFFDE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balanca.Infra", "Balanca.Infra\Balanca.Infra.csproj", "{5EA6E3BF-77D5-4E99-8747-9403E66E9FA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMOS.Infra", "Balanca.Infra\SMOS.Infra.csproj", "{5EA6E3BF-77D5-4E99-8747-9403E66E9FA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balanca.Domain", "Balanca.Domain\Balanca.Domain.csproj", "{189CB68F-00D3-462E-9EFF-C3F01B06FDED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMOS.Domain", "Balanca.Domain\SMOS.Domain.csproj", "{189CB68F-00D3-462E-9EFF-C3F01B06FDED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - API", "1.1 - API", "{530B809D-5421-419E-AFFE-94619C42EDF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balanca.API", "Balanca.API\Balanca.API.csproj", "{8FBF36F8-56B8-488B-A66B-4267C5E42B8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMOS.API", "Balanca.API\SMOS.API.csproj", "{8FBF36F8-56B8-488B-A66B-4267C5E42B8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balanca.Servico", "Balanca.Servico\Balanca.Servico.csproj", "{C3886B4D-E869-4AF2-890C-F382C7A60950}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMOS.Servico", "Balanca.Servico\SMOS.Servico.csproj", "{C3886B4D-E869-4AF2-890C-F382C7A60950}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - MVC", "1.2 - MVC", "{837EAB02-7914-4588-B0DA-C897ECD9B623}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balanca.Application", "Balanca.Application\Balanca.Application.csproj", "{ACA1FB16-80E0-434A-ABF0-4581FA749EC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMOS.Application", "Balanca.Application\SMOS.Application.csproj", "{ACA1FB16-80E0-434A-ABF0-4581FA749EC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

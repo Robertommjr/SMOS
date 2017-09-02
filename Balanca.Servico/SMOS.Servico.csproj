@@ -45,13 +45,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Balanca.Domain\Balanca.Domain.csproj">
+    <ProjectReference Include="..\Balanca.Domain\SMOS.Domain.csproj">
       <Project>{189CB68F-00D3-462E-9EFF-C3F01B06FDED}</Project>
-      <Name>Balanca.Domain</Name>
+      <Name>SMOS.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Balanca.Infra\Balanca.Infra.csproj">
+    <ProjectReference Include="..\Balanca.Infra\SMOS.Infra.csproj">
       <Project>{5EA6E3BF-77D5-4E99-8747-9403E66E9FA4}</Project>
-      <Name>Balanca.Infra</Name>
+      <Name>SMOS.Infra</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

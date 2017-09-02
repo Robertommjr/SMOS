@@ -62,9 +62,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Balanca.Domain\Balanca.Domain.csproj">
+    <ProjectReference Include="..\Balanca.Domain\SMOS.Domain.csproj">
       <Project>{189CB68F-00D3-462E-9EFF-C3F01B06FDED}</Project>
-      <Name>Balanca.Domain</Name>
+      <Name>SMOS.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

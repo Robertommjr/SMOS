@@ -1,0 +1,4 @@
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Domain\bin\Debug\Balanca.Domain.dll
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Domain\bin\Debug\Balanca.Domain.pdb
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Domain\obj\Debug\Balanca.Domain.dll
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Domain\obj\Debug\Balanca.Domain.pdb

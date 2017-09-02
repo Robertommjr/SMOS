@@ -1,0 +1,12 @@
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Servico\bin\Debug\Balanca.Servico.dll
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Servico\bin\Debug\Balanca.Servico.pdb
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Servico\bin\Debug\Balanca.Domain.dll
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Servico\bin\Debug\Balanca.Infra.dll
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Servico\bin\Debug\EntityFramework.dll
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Servico\bin\Debug\Balanca.Domain.pdb
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Servico\bin\Debug\Balanca.Infra.pdb
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Servico\bin\Debug\Balanca.Infra.dll.config
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Servico\bin\Debug\EntityFramework.xml
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Servico\obj\Debug\SMOS.Servico.csprojResolveAssemblyReference.cache
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Servico\obj\Debug\Balanca.Servico.dll
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\Balanca.Servico\obj\Debug\Balanca.Servico.pdb

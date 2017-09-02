@@ -198,17 +198,17 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Balanca.Domain\Balanca.Domain.csproj">
+    <ProjectReference Include="..\Balanca.Domain\SMOS.Domain.csproj">
       <Project>{189cb68f-00d3-462e-9eff-c3f01b06fded}</Project>
-      <Name>Balanca.Domain</Name>
+      <Name>SMOS.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Balanca.Infra\Balanca.Infra.csproj">
+    <ProjectReference Include="..\Balanca.Infra\SMOS.Infra.csproj">
       <Project>{5ea6e3bf-77d5-4e99-8747-9403e66e9fa4}</Project>
-      <Name>Balanca.Infra</Name>
+      <Name>SMOS.Infra</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Balanca.Servico\Balanca.Servico.csproj">
+    <ProjectReference Include="..\Balanca.Servico\SMOS.Servico.csproj">
       <Project>{C3886B4D-E869-4AF2-890C-F382C7A60950}</Project>
-      <Name>Balanca.Servico</Name>
+      <Name>SMOS.Servico</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
