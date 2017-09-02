@@ -11,8 +11,12 @@ namespace Balanca.Application
 
 
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                //"~/Scripts/jquery-3.1.1.min.js",
                 "~/Content/plugins/jQuery/jquery-2.2.3.min.js"
+                ));
+
+            bundles.Add(new ScriptBundle("~/bundles/angular").Include(
+                "~/Scripts/Angular/angular.min.js",
+                "~/Scripts/Angular/angular-route.min.js"
                 ));
 
 
@@ -24,17 +28,17 @@ namespace Balanca.Application
             ));
 
             bundles.Add(new ScriptBundle("~/bundles/templateJS").Include(
-                       "~/Content/plugins/wait/wait.js",
-                       "~/Content/bootstrap/js/bootstrap.js",
-                       "~/Content/plugins/fastclick/fastclick.js",
-                       "~/Content/dist/js/app.js",
-                       "~/Content/plugins/sparkline/jquery.sparkline.js",
-                       "~/Content/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js",
-                       "~/Content/plugins/jvectormap/jquery-jvectormap-world-mill-en.js",
-                       "~/Content/plugins/slimScroll/jquery.slimscroll.js",
-                       "~/Content/plugins/chartjs/Chart.js",
-                       "~/Content/dist/js/demo.js"
-                       ));
+             "~/Content/plugins/wait/wait.js",
+             "~/Content/bootstrap/js/bootstrap.js",
+             "~/Content/plugins/fastclick/fastclick.js",
+             "~/Content/dist/js/app.js",
+             "~/Content/plugins/sparkline/jquery.sparkline.js",
+             "~/Content/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js",
+             "~/Content/plugins/jvectormap/jquery-jvectormap-world-mill-en.js",
+             "~/Content/plugins/slimScroll/jquery.slimscroll.js",
+             "~/Content/plugins/chartjs/Chart.js",
+             "~/Content/dist/js/demo.js"
+             ));
 
             bundles.Add(new ScriptBundle("~/bundles/sliderjs").Include(
                 "~/Content/plugins/ionslider/ion.rangeSlider.min.js",

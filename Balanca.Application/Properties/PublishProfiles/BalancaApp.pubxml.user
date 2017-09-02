@@ -16,10 +16,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/22/2013 08:43:40</publishTime>
     </File>
     <File Include="bin/Balanca.Application.dll">
-      <publishTime>05/31/2017 23:07:26</publishTime>
+      <publishTime>06/04/2017 22:51:03</publishTime>
     </File>
     <File Include="bin/Balanca.Application.pdb">
-      <publishTime>05/31/2017 23:07:26</publishTime>
+      <publishTime>06/04/2017 22:51:03</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>06/15/2015 02:06:24</publishTime>
@@ -28,7 +28,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/23/2012 15:23:58</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>03/08/2014 20:33:56</publishTime>
+      <publishTime>08/03/2014 20:33:56</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/18/2015 20:19:46</publishTime>
@@ -73,7 +73,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 05:02:18</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>11/02/2014 16:26:04</publishTime>
+      <publishTime>02/11/2014 16:26:04</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
       <publishTime>01/28/2015 05:02:32</publishTime>
@@ -88,7 +88,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/28/2015 05:04:30</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
-      <publishTime>10/09/2013 17:28:38</publishTime>
+      <publishTime>09/10/2013 17:28:38</publishTime>
     </File>
     <File Include="Content/bootstrap/css/bootstrap-theme.css">
       <publishTime>05/20/2017 22:45:59</publishTime>
@@ -2874,6 +2874,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="packages.config">
       <publishTime>05/21/2017 13:14:29</publishTime>
     </File>
+    <File Include="Scripts/Aplicacao/Balanca/Editar/EditarCtrl.js">
+      <publishTime>06/04/2017 22:42:27</publishTime>
+    </File>
     <File Include="Scripts/Aplicacao/Home/Balancas/BalancaCtrl.js">
       <publishTime>05/29/2017 23:58:59</publishTime>
     </File>
@@ -2920,7 +2923,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/21/2017 21:24:18</publishTime>
     </File>
     <File Include="Views/Balanca/Editar.cshtml">
-      <publishTime>05/31/2017 23:02:30</publishTime>
+      <publishTime>06/04/2017 22:43:27</publishTime>
     </File>
     <File Include="Views/Home/Balancas.cshtml">
       <publishTime>05/31/2017 22:36:04</publishTime>

@@ -6,12 +6,18 @@ namespace Balanca.Application.Controllers
     {
         public ActionResult Index()
         {
-            return RedirectToAction("Balancas");
-        }
-
-        public ActionResult Balancas()
-        {
             return View();
         }
+
+        public ActionResult Sobre()
+        {
+            return View("~/Views/Home/Sobre.cshtml");
+        }
+
+        public ActionResult Contato()
+        {
+            return View("~/Views/Home/Contato.cshtml");
+        }
+
     }
 }

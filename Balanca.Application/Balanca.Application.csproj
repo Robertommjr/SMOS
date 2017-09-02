@@ -120,7 +120,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\BalancaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -1052,8 +1051,9 @@
     <Content Include="Content\plugins\datatables\extensions\TableTools\Readme.md" />
     <Content Include="Content\plugins\input-mask\phone-codes\phone-be.json" />
     <Content Include="Content\plugins\input-mask\phone-codes\phone-codes.json" />
-    <Content Include="Scripts\Aplicacao\Balanca\Editar\EditarCtrl.js" />
-    <Content Include="Scripts\Aplicacao\Home\Balancas\BalancaCtrl.js" />
+    <Content Include="Scripts\Angular\angular-route.min.js" />
+    <Content Include="Scripts\Angular\angular.min.js" />
+    <Content Include="Scripts\app.js" />
     <None Include="Properties\PublishProfiles\BalancaApp.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
@@ -1071,6 +1071,8 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="ViewsScripts\Aplicacao\Home\Contato.js" />
+    <Content Include="ViewsScripts\Aplicacao\Home\Sobre.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1083,12 +1085,16 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\Balancas.cshtml" />
     <Content Include="Views\Balanca\Editar.cshtml" />
+    <Content Include="Views\Home\Sobre.cshtml" />
+    <Content Include="Views\Home\Contato.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Scripts\ui-grid\" />
     <Folder Include="ViewModel\" />
+    <Folder Include="ViewsScripts\Componentes\" />
+    <Folder Include="Views\Rotas\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

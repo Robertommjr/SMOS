@@ -15,29 +15,32 @@
             <div class="box-header with-border">
                 <h3 class="box-title">Editar Baia</h3>
             </div>
-            <form class="form" id="frmEdicaoBalanca">
+            <form class="form" id="frmEdicaoBalanca" method="put" name="frmEdicaoBalanca">
                 <div class="box-body">
                     <div class="form-group">
                         <label>Baias</label>
-                        <select class="form-control">
+                        <select class="form-control" id="slcEditarBalancas">
                             <option>Selecione uma baia</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label for="inputNomeBaia">Nome</label>
-                        <input type="text" maxlength="14" class="form-control" id="inputNomeBaia" placeholder="Nome" required readonly="readonly">
+                        <input type="text" maxlength="24" name="NomeBalanca"  class="form-control" id="inputNomeBaia" placeholder="Nome" required>
                     </div>
                     <div class="form-group">
                         <label for="inputDescricaoBaia">Descrição</label>
-                        <input type="text" maxlength="14" class="form-control" id="inputDescricaoBaia" placeholder="Descrição" required readonly="readonly">
+                        <input type="text" maxlength="50" name="DescricaoBalanca" class="form-control" id="inputDescricaoBaia" placeholder="Descrição" required>
                     </div>
                     <div class="form-group">
                         <label for="inputPesoBaia">Último Peso</label>
-                        <input type="number" maxlength="14" class="form-control" id="inputPesoBaia" placeholder="Peso" required readonly="readonly">
+                        <input type="text" maxlength="14" name="PesoBalanca" class="form-control" id="inputPesoBaia" placeholder="Peso" required>
                     </div>
+                </div>
+                <div class="box-footer">
+                    <button type="submit" class="btn btn-primary">Atualizar</button>
                 </div>
             </form>
         </div>
     </div>
 </section>
-
+@Scripts.Render("~/Scripts/Aplicacao/Balanca/Editar/EditarCtrl.js")
