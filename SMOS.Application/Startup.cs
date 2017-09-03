@@ -2,7 +2,7 @@
 using Microsoft.Owin.Security.Cookies;
 using Owin;
 
-namespace Balanca.Application.App_Start
+namespace Balanca.Application
 {
     public class Startup
     {
@@ -11,7 +11,7 @@ namespace Balanca.Application.App_Start
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
                 AuthenticationType = "ApplicationCookie",
-                LoginPath = new PathString("/auth/login")
+                LoginPath = new PathString("/Home/Index")
             });
         }
     }

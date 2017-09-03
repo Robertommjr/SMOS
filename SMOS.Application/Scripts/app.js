@@ -19,10 +19,7 @@ app.config(function ($routeProvider, $locationProvider) {
             templateUrl: "auth/logIn",
             controller: 'AuthCtrl'
         })
-        .when("/", {
-            templateUrl: "auth/logIn",
-            controller: 'AuthCtrl'
-        })
+
 
         .otherwise({redirectTo: '/'})
 });
