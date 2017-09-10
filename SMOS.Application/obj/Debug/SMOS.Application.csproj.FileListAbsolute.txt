@@ -90,3 +90,4 @@ C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\SMOS.Application\bin\Micros
 C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\SMOS.Application\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\SMOS.Application\bin\Microsoft.Owin.Security.xml
 C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\SMOS.Application\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\fabio\OneDrive\Documents\Projetos\BalancaIO\SMOS.Application\obj\Debug\SMOS.Application.csprojResolveAssemblyReference.cache

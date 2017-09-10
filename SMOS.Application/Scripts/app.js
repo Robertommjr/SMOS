@@ -16,10 +16,10 @@ app.config(function ($routeProvider, $locationProvider) {
             controller: 'SobreCtrl'
         })
         .when("/Auth", {
-            templateUrl: "auth/logIn",
+            templateUrl: "Auth/logIn",
             controller: 'AuthCtrl'
         })
 
 
-        .otherwise({redirectTo: '/'})
+        .otherwise({ redirectTo: '/Auth/LogIn'})
 });

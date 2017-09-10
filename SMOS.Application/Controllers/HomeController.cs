@@ -1,16 +1,16 @@
-﻿    using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace SMOS.Application.Controllers
 {
+    [AllowAnonymous]
     public class HomeController : Controller
     {
-        [AllowAnonymous]
         public ActionResult Index()
         {
             return View();
         }
         //http://benfoster.io/blog/aspnet-identity-stripped-bare-mvc-part-1
-        [AllowAnonymous]
+
         public ActionResult Sobre()
         {
             return View("~/Views/Home/Sobre.cshtml");
